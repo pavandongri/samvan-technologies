@@ -10,8 +10,8 @@ export const SITE = {
   phone: "+91 86885 04460",
   phoneTel: "+918688504460",
   address: {
-    line1: "Muthampet",
-    line2: "Koutala",
+    line1: "4-48, sc colony",
+    line2: "Muthampet, Koutala",
     city: "Kumuram Bheem Asifabad",
     region: "Telangana",
     postal: "504299",
