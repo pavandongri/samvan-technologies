@@ -1,12 +1,12 @@
 /** Central place to update business details for the whole site. */
 export const SITE = {
-  name: "Samvan IT Solutions",
-  shortName: "Samvan",
+  name: "Samvan Technologies",
+  shortName: "SamvanTech",
   tagline: "Practical IT delivery—from integrations to full product builds.",
   /** General inquiries */
   email: "pavankumardongri@gmail.com",
   /** HR / office */
-  officeEmail: "hr@samvanitsolutions.com",
+  officeEmail: "hr@samvantechnologies.com",
   phone: "+91 86885 04460",
   phoneTel: "+918688504460",
   address: {

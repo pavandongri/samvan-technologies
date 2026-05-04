@@ -19,7 +19,7 @@ const jetbrains = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: `${SITE.name} | IT Solutions & Integrations`,
+    default: `${SITE.name} | Samvan Technologies`,
     template: `%s | ${SITE.name}`,
   },
   description: SITE.tagline,

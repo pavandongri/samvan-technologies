@@ -120,7 +120,7 @@ export default function ContactPage() {
 
               <div className="mt-8 overflow-hidden rounded-xl border border-slate-200/90 dark:border-white/10">
                 <iframe
-                  title="Samvan office region map"
+                  title="Samvan Technologies office region map"
                   src={SITE.mapEmbedUrl}
                   className="aspect-[16/10] h-auto min-h-[200px] w-full bg-slate-100 dark:bg-slate-900"
                   loading="lazy"

@@ -89,7 +89,7 @@ export default function Home() {
               A partner for delivery—not slideware.
             </p>
             <p className="mt-4 text-slate-600 dark:text-slate-400">
-              Samvan blends product thinking with hands-on engineering. Expect
+              Samvan Technologies blends product thinking with hands-on engineering. Expect
               crisp communication, pragmatic security, and documentation your
               team can run with.
             </p>

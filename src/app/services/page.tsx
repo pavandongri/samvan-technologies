@@ -22,7 +22,7 @@ export default function ServicesPage() {
           </h1>
           <p className="mt-5 max-w-2xl text-lg text-slate-600 dark:text-slate-400">
             From WhatsApp Business API integrations to freelance engineering
-            pods, Samvan assembles the right depth for your stage—without
+            pods, Samvan  Technologies assembles the right depth for your stage—without
             inflating scope.
           </p>
         </FadeUp>

@@ -185,11 +185,10 @@ export function Navbar() {
             onClick={closeAll}
           >
             <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-cyan-500 to-violet-600 text-xs font-bold text-white shadow-md shadow-cyan-500/25 transition group-hover:shadow-cyan-400/35 dark:from-cyan-400 dark:to-violet-500 dark:text-slate-950">
-              SV
+              SVT
             </span>
             <span className="hidden truncate text-sm sm:inline sm:text-base">
-              {SITE.shortName}
-              <span className="text-cyan-700 dark:text-cyan-400"> IT</span>
+              {SITE.name}
             </span>
           </Link>
         </div>
