@@ -136,9 +136,28 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-slate-200/80 pt-8 text-xs text-slate-500 dark:border-white/10 dark:text-slate-500 sm:flex-row">
-          <p>
-            © {new Date().getFullYear()} {SITE.name}. All rights reserved.
-          </p>
+          <div className="flex flex-col items-center gap-2 sm:flex-row sm:gap-4">
+            <p>
+              © {new Date().getFullYear()} {SITE.name}. All rights reserved.
+            </p>
+            <span className="hidden text-slate-300 dark:text-slate-700 sm:inline">
+              ·
+            </span>
+            <div className="flex gap-4">
+              <Link
+                href="/privacy-policy"
+                className="transition hover:text-cyan-700 dark:hover:text-cyan-400"
+              >
+                Privacy Policy
+              </Link>
+              <Link
+                href="/terms-of-service"
+                className="transition hover:text-cyan-700 dark:hover:text-cyan-400"
+              >
+                Terms of Service
+              </Link>
+            </div>
+          </div>
           <p className="text-slate-400 dark:text-slate-600">
             Built with care for clarity, speed, and uptime.
           </p>
